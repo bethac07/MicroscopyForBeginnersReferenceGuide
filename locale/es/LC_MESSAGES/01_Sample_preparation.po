@@ -407,8 +407,8 @@ msgstr ""
 "**Mis células fijadas no tienen el aspecto esperado** - La fijación puede "
 "cambiar la localización y la fluorescencia de diferentes proteínas. Siempre "
 "que sea posible, compare siempre la distribución de una proteína o molécula "
-"de interés con y sin fijación. Considere también si un método de `fijación` "
-"diferente puede ser más apropiado para su muestra."
+"de interés con y sin fijación. Considere también si un método de "
+"{term}`fijación` diferente puede ser más apropiado para su muestra."
 
 #: ../../01_Sample_preparation/Considerations.md:88
 msgid ""
