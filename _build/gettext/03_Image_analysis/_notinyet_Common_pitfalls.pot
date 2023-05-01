@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:1
+msgid "Common pitfalls"
+msgstr ""
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:3
+msgid "In addition to the mistakes we summarize for common image analysis tasks, here we present a general list of common mistakes for beginners to image analysis. For each, we explain why this is a problem and make suggestions for how to avoid these issues."
+msgstr ""
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:5
+msgid "Changing your image bit depth"
+msgstr ""
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:7
+msgid "Let's say you've opened your image in {term}`Fiji` and you want to process it in some way (e.g., maximum intensity projection, splitting channels, etc.) before saving it out to measure somewhere else. You go to `Image` > `Type` > `RGB (Color)` since you want a color image to import into your next analysis software and then save the resulting image. What's the problem with this? By making this change, even if the image looks exactly the same to your eyes, you've actually inadvertently changed the intensity values quite a bit! Let's take a look at an example. In Fiji there are several built-in example images. Let's open neuron.tif (you can follow along by going to `File` > `Open Samples...` > `Neuron (5 channels)`."
+msgstr ""
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:9
+msgid "Here's how the image opens. There are 5 channels, but let's just look at the first one: ![image](https://user-images.githubusercontent.com/28116530/206793825-364998d4-6043-4b1d-8438-0a5b37b97232.png)"
+msgstr ""
+
+#: ../../03_Image_analysis/_notinyet_Common_pitfalls.md:9
+msgid "image"
+msgstr ""

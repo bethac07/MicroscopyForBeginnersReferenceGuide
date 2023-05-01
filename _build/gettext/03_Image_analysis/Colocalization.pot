@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../03_Image_analysis/Colocalization.md:1
+msgid "Colocalization"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:4
+msgid "What is colocalization?"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:6
+msgid "Colocalization is when two or more different labels (e.g., eGFP and mCherry) spatially overlap in your image (also called co-occurrence). Another component of colocalization is that the fluorescent labels often correlate in intensity (i.e., pixels with brighter eGFP also have brighter mCherry). It is very important to measure colocalization quantitatively–**do not just trust your eyes!**"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:8
+msgid "It is also important to recognize that co-ocurrence does not _necessarily_ imply interaction."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:11
+msgid "As an example, it is possible for two people to work in the same building an never interact."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:21
+msgid "degrees of colocalization"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:21
+msgid "**Colocalization is about intensity and spatial overlap of labels**"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:0
+msgid "📏 How do I measure it?"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:28
+msgid "There are two main branches for how to look at colocalization: Object-based and correlation-based."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:30
+msgid "**Object-based colocalization** is appropriate when you want to be able to say something about a fraction of objects being positive for multiple labels (e.g., 99% of eGFP+ cells were also mCherry+). Here’s a sample workflow:"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:51
+msgid "**Correlation-based colocalization** is more appropriate when the labels you’re measuring are not found in discrete objects or when you predict that the signal in the labels should correlate. Correlation-based colocalization is simpler to measure as it does not require any {term}`segmentation` of objects. Pearson correlation coefficients are readily measurable in most image analysis softwares (e.g., FIJI, CellProfiler, etc.)."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:0
+msgid "<span style=\"color: red\">⚠️</span> Where can things go wrong?"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:55
+msgid "**Not having adequate controls** (e.g., single label controls where only one fluorescent label is present). Noise, uneven illumination, and other technical artifacts can cause correlation between two channels"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:56
+msgid "**Not correcting for shift between channels** It’s common to have some degree of shift between different imaging channels due to differences in optics (e.g., different filter cubes). Not correcting for this shift (e.g., by measuring it and applying the corresponding correction to the channels) can limit your ability to detect colocalization."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:57
+msgid "**Bleedthrough** Sometimes signal from one fluorescent channel bleeds into another, which can falsely increase your detected colocalization. This happens most commonly with fluorophores that are similar in spectra (e.g., GFP and YFP). This is caused by fluorophore in one channel being weakly excited by light used to excite a different fluorophore and the resulting emitted fluorescence makes it through the emission filter (e.g., your green objects show up in the yellow channel as well). Assess this with single label controls."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:58
+msgid "**Improper interpretation of your colocalization metric** The details of the metric chosen here are very important - they vary widely in terms of their inclusion of background pixels, their sensitivity to signal-to-noise, etc. Consultation with an expert and the inclusion of proper controls can help you be assured that your measurement is truly what you think it is."
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:0
+msgid "📚🤷‍♀️ Where can I learn more?"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:63
+msgid "🔢 [Theoretical background on colocalization](https://svi.nl/ColocalizationTheory)"
+msgstr ""
+
+#: ../../03_Image_analysis/Colocalization.md:64
+msgid "📄 [Image co-localization - co-occurrence versus correlation](https://journals.biologists.com/jcs/article/131/3/jcs211847/77151/Image-co-localization-co-occurrence-versus) {cite}`Aaron2018-qi`"
+msgstr ""

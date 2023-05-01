@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../01_Sample_preparation/Introduction.md:1
+msgid "Introduction"
+msgstr ""
+
+#: ../../01_Sample_preparation/Introduction.md:3
+msgid ""
+"A good image starts at the bench. The best performing instrument will not"
+" produce rigorous, reproducible or high quality data unless sample "
+"preparation has been optimized. To design a rigorous and reproducible "
+"microscopy experiment, it is critical to identify the goal of the "
+"experiment and understand the factors that impact the image. This "
+"information informs researchers about how to prepare the sample, what "
+"minimal controls and corrections are needed, how to choose the "
+"appropriate instrumentation, optimize acquisition, analyze and present "
+"microscopy data."
+msgstr ""
+
+#: ../../01_Sample_preparation/Introduction.md:5
+msgid ""
+"Here we will discuss some of the key choices you will make during sample "
+"preparation, including selecting your sample type and fluorophore (if "
+"you're performing fluorescence microscopy). We also discuss some minimal "
+"controls necessary for interpreting your results."
+msgstr ""
+

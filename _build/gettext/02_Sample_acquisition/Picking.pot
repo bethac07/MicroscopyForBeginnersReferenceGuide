@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../02_Sample_acquisition/Picking.md:1
+msgid "Choosing the right microscopy modality"
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:3
+msgid "Introduction"
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:5
+msgid "Choosing the right microscope for your experiment will be a factor both of what the experiment dictates and what the researcher can access. The image below (from [Fundamentals of Microscopy by Jermey Sanderson](http://dx.doi.org/10.1002/cpmo.76) {cite}`Sanderson2020-qz`) gives a sense of the sorts of decisions one should consider when choosing a microscope; a more thorough description of the pros and cons of various kinds of microscopes can be found in [this tutorial](https://doi.org/10.1038/s41596-020-0313-9){cite}`Jonkman2020-bo`."
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:14
+msgid "BBBC image montage"
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:14
+msgid "**Flow chart to help choose which type of microscope to use.** Figure by Jeremy Sanderson. [Source](https://www.researchgate.net/figure/Flow-chart-to-help-choose-which-type-of-microscope-to-use_fig5_341918746) {cite}`Sanderson2020-qz`"
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:17
+msgid "Opportunities for microscopy resource access"
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:19
+msgid "While some imaging facilities are open only to members of a single institution, others allow outside visitors or even sponsor visitors to travel to them."
+msgstr ""
+
+#: ../../02_Sample_acquisition/Picking.md:21
+msgid "**Advanced Imaging Center - Janelia Research Campus.** The AIC was created to give access to the broad scientific community to new imaging instruments that are not commercially available. Proposals can be submitted during open calls at [their website](https://www.aicjanelia.org/apply)."
+msgstr ""

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../03_Image_analysis/Tracking.md:1
+msgid "Object tracking"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:3
+msgid "What is tracking?"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:4
+msgid "Tracking, or _object tracking_, refers to the ability to estimate the location of objects in motion from one frame of video to the next. Practically, object tracking in microscopy involves identifying your objects in each frame of your video, then relating objects from frame to frame to be able to identify the same cell as it moves in space."
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:0
+msgid "📏 How do I measure it?"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:10
+msgid "There are several options for tracking objects, like the [TrackMate](https://imagej.net/plugins/trackmate/) {cite}`Tinevez2017-fb` plugin in Fiji, but tracking is somewhat more complex to setup than the previous analyses. In addition to just identifying objects in the movie/time series, tracking also allows you to identify splitting (e.g. mitosis) and merging events. There are many measurements that come out of tracking, including spatial measures like where the objects move to, speed measurements, distance traveled (length of track), and rate of splitting events (e.g., mitotic events) and merging events."
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:0
+msgid "<span style=\"color: red\">⚠️</span> Where can things go wrong?"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:15
+msgid "**Poor {term}`segmentation`** If objects are dropping out from frame to frame, this makes it more difficult to track them over time. Accurate {term}`segmentation` is the foundation of good tracking results. This can become more difficult if your objects are also changing in shape or intensity (due to things such as bleaching) over the course of the video. It’s important to find a {term}`segmentation` strategy that can work well across your frames."
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:16
+msgid "**Inadequate frame rate** If objects are highly dynamic but the images were not taken at a high frequency, tracking can be difficult because objects might have moved too much for the algorithm to relate them from one frame to the next. It is important to match the image acquisition frequency to how dynamic your cells or objects are."
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:0
+msgid "📚🤷‍♀️ Where can I learn more?"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:22
+msgid "📄 [Computerized Cell Tracking](https://www.sciencedirect.com/science/article/pii/S2468502X20300711)"
+msgstr ""
+
+#: ../../03_Image_analysis/Tracking.md:23
+msgid "🌐 [TrackMate Manual](https://imagej.net/media/plugins/trackmate/trackmate-manual.pdf)"
+msgstr ""

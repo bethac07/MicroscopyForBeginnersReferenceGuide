@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../04_Data_presentation/Presentation_images.md:1
+msgid "Presentation of microscopy images"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:3
+msgid "What is it?"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:5
+msgid ""
+"Microscopy images are often shown in scientific papers to illustrate a "
+"particular conclusion. While qualitative conclusions are not a subsitute "
+"for quantitative comparisons (see next section), images can certainly "
+"guide our reasoning and our conclusions. Following a few consistent best "
+"practices ensures that these conclusions are correct and robust."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:14
+msgid "10 tips for image presentation"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:14
+msgid ""
+"**A brief visual summary of image presentation tips.** Figure by Helena "
+"Jambor. [Source](https://doi.org/10.5281/zenodo.7750259)"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "Adjust the image crop, orientation, and size."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:18
+msgid ""
+"For any adjustments, work with an image copy and do not alter the "
+"original file. Note, do not use adjusted images for quantitative image "
+"data analyses  Adjustments to effectively communicate the image content "
+"may include removing uninformative image regions (crop), changing the "
+"image orientation, and adjusting the size. Note that rotation and re-"
+"sizing may change the image data when pixel information is redistributed."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:17
+msgid "rotation"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "🤔 How do I do it?"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:25
+#: ../../04_Data_presentation/Presentation_images.md:43
+#: ../../04_Data_presentation/Presentation_images.md:62
+#: ../../04_Data_presentation/Presentation_images.md:82
+#: ../../04_Data_presentation/Presentation_images.md:98
+msgid "See the [cheat-sheet below](image-cheat-sheet) for more information."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "<span style=\"color: red\">⚠️</span> Where can things go wrong?"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:28
+msgid "Any adjustments that alter the conclusions are not permitted."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "📚🤷‍♀️ Where can I learn more?"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:31
+msgid ""
+"📄 [Reproducible image handling and "
+"analysis](https://doi.org/10.15252/embj.2020105889) {cite}`Miura2021-mb`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:32
+#: ../../04_Data_presentation/Presentation_images.md:49
+#, python-format
+msgid ""
+"📄 [Avoiding Twisted Pixels: Ethical Guidelines for the Appropriate Use "
+"and Manipulation of Scientific Digital "
+"Images](https://doi.org/10.1007%2Fs11948-010-9201-y) "
+"{cite}`Cromey2010-jr`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "Enhance visibility of image content"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:37
+msgid ""
+"Images often do not have regular spaced intensity values. To still "
+"display the data visible on a screen/in a figure, adjustments of "
+"brightness and contrast are usually necessary."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:36
+msgid "image adjustment"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:46
+msgid ""
+"Any adjustments that result in the disappearance of image details are "
+"considered misleading {cite}`Cromey2010-jr`. Note that many nonlinear "
+"transformations of brightness and contrast are available in image "
+"processing software, before using these users should ensure that they "
+"faithfully represent the data to avoid accidentally misleading audiences "
+"and disclose them as annotations."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "Use accessible colors"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:54
+msgid ""
+"Fluorescent microscope images are often composed of data from multiple "
+"wavelengths/color channels. To best visualize molecular structures, "
+"individual channels can be shown in separate grayscale images. When "
+"colors are chosen to represent the illumination wavelength (blue, green, "
+"red, far-red), for example Green-Fluorescent Protein is shown in green "
+"color, be reminded that intensity values on a black background reduces "
+"the level of detail."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:56
+msgid ""
+"When channels are over-laid in ‘composite’ images, authors should ensure "
+"that structures are visible, i.e., that the overlay does not obstruct "
+"features and that the colors used are clearly distinguishable."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:53
+msgid "multicolor image composition"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:65
+msgid ""
+"For composite images consider if color combinations are accessible to "
+"color-blind audiences (e.g. not combine red with green, but rather "
+"magenta and green, see reference below for examples) and possibly "
+"additionally show individual channels in grayscale for maximizing "
+"accessibility and detail.  Tools for color blindness simulation of the "
+"images exist in image processing software (ImageJ/Fiji) and visibility of"
+" colors in final image figures can be tested with applications such as "
+"ColorOracle."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:69
+msgid ""
+"📄 [Creating clear and informative image-based figures for scientific "
+"publications](https://doi.org/10.1371/journal.pbio.3001161) "
+"{cite}`Jambor2021-qe`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "Annotate key image features"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:74
+msgid ""
+"Each image needs a reference to its physical dimensions. This is "
+"typically achieved by including a scale bar with dimensions annotated in "
+"the image or the figure legend."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:76
+msgid ""
+"In addition, authors should remember to annotate the colors used, any "
+"symbols and arrows used to guide readers, and, if used, the origin of any"
+" zoom/inset. If specialized images are shown (time-lapse, volumes, "
+"reconstructions) authors are encouraged to consider annotating important "
+"information in the figures."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:73
+msgid "speech bubbles"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:85
+msgid ""
+"Lack of details and missing of key explanations will make it impossible "
+"for audiences to interpret image data in figures.  To unambiguously "
+"reference probes consider using terms from the ISAC Probe Tag Dictionary,"
+" a standardized nomenclature for probers used in cytometry and "
+"microscopy."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:89
+msgid ""
+"📄 [ISAC Probe Tag Dictionary: Standardized Nomenclature for Detection and"
+" Visualization Labels Used in Cytometry and Microscopy Imaging "
+"](https://doi.org/10.1002/cyto.a.24224) {cite}`Blenman2021-ki`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md
+msgid "Explain the image"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:95
+msgid ""
+"To rapidly orient audiences, a minimal explanatory text should be "
+"presented along with images. This includes the figure legend and the "
+"methods section in scientific papers or the title of figures in posters "
+"and slides. Consider using a controlled vocabulary to reduce ambiguity "
+"and increase machine-readability of the descriptions of specimens, "
+"tissues, cell lines, and proteins etc. A useful tool is the [RRID "
+"(Reseach Resource Identifying "
+"Data)index](https://scicrunch.org/resources) , which provides indices for"
+" commonly used biological reagents and resources, e.g., plasmids, cell "
+"lines and antibodies ."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:101
+msgid ""
+"Missing explanations of image details/methods may result in non-"
+"reproducible data and limits the insights from the data."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:104
+msgid ""
+"📄 [Replication Study: Biomechanical remodeling of the microenvironment by"
+" stromal caveolin-1 favors tumor invasion and "
+"metastasis](https://doi.org/10.7554/eLife.45120) {cite}`Sheen2019-bg`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:105
+msgid ""
+"📄 [Imaging methods are vastly underreported in biomedical "
+"research](https://doi.org/10.7554/eLife.55133) {cite}`Marques2020-nx`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:106
+msgid ""
+"📄 [Are figure legends sufficient? Evaluating the contribution of "
+"associated text to biomedical figure "
+"comprehension.](https://doi.org/10.1186/1747-5333-4-1) {cite}`Yu2009-ip`"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:110
+msgid "Where can I learn more?"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:112
+msgid ""
+"Check out _Creating clear and informative image-based figures for "
+"scientific publications_{cite}`Jambor2021-qe` and _Community-developed "
+"checklists for publishing images and image "
+"analysis_{cite}`Schmied2023-ad` for more tips and best practices for "
+"making image figures."
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:114
+msgid ""
+"A cheat sheet on how to do basic image preparation with open source "
+"software:"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:124
+msgid "Instructions for common image processing operations in Fiji"
+msgstr ""
+
+#: ../../04_Data_presentation/Presentation_images.md:124
+msgid ""
+"**How to correctly perform various image manipulations in Fiji.** Figure "
+"by Christopher Schmied and Helena Jambor. "
+"[Source](https://doi.org/10.12688/f1000research.27140.2)"
+msgstr ""
+

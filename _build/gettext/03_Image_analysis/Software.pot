@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../03_Image_analysis/Software.md:1
+msgid ""
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:1
+msgid "Open source software"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:3
+msgid "Introduction"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:5
+msgid "When it comes time to select a software program for your image analysis, there are many options, some more general and others highly specialized to specific image modalities or types of experiments. In general, a good place to start exploring is by examining papers in your field and seeing what others have used to analyze similar experiments to your own. It’s important to note that there isn’t one correct answer to \"Which program should I use?\" Depending on your biological question, your images, and your own comfort with coding, there are many options available."
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:7
+msgid "Below, we summarize the use-cases and limitations of some of the most common, free and open-source software for image analysis, this is a small list and more extensive ones exist like the [A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) {cite}`Haase2022-ad` and the [BioImage Informatics Index](https://biii.eu) {cite}`Paul-Gilloteaux2021-vw`."
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:9
+msgid "Whatever software you choose, be sure to include a detailed description of your analysis in your methods, with pipeline or workflow files if possible, so others can reproduce your work. Also be sure to cite the analysis software you use! This helps developers of the software get grant funding and helps others find useful tools."
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:17
+#: ../../03_Image_analysis/Software.md:26
+#: ../../03_Image_analysis/Software.md:35
+#: ../../03_Image_analysis/Software.md:44
+#: ../../03_Image_analysis/Software.md:53
+#: ../../03_Image_analysis/Software.md:62
+#: ../../03_Image_analysis/Software.md:71
+#: ../../03_Image_analysis/Software.md:80
+#: ../../03_Image_analysis/Software.md:89
+msgid "card-img-top"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "ImageJ"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:21
+msgid "[ImageJ](https://imagej.net/) is an imaging processing program that is capable of operating on a variety of images including multichannel, 3D and time series. It provides basic imaging processing operations and has a variety of plugins for more complex tasks. [Read more...](content/imagej)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "CellProfiler"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:30
+msgid "[CellProfiler](https://cellprofiler.org/) was designed with the idea of an image analysis pipeline in mind; it allows you to take a series of interoperable modules to design your own custom analysis pipeline that can be applied to one or thousands of images, making it suitable for high throughput image analysis. [Read more...](content/cellprofiler)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "QuPath"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:39
+msgid "[QuPath](https://qupath.github.io/) offers a wide set of image analysis tools that can be applied to whole slide images like pathology images, but it can be used with other images as well. QuPath also contains pixel classification tools and can integrate with ImageJ. [Read more...](content/qupath)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "Icy"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:48
+msgid "[Icy](https://icy.bioimageanalysis.org/) is an out of the box image analysis tools, it utilizes plugins to create visual image analysis protocols that can be shared with other users. [Read more...](content/icy)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "MIB"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:57
+msgid "[MIB](http://mib.helsinki.fi/index.html) is a user-friendly software for image analysis of multidimensional datasets for both light and electron microscopy. It allows you to use the whole acquired data for its analysis and extraction of morphological features. [Read more...](content/mib)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "napari"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:66
+msgid "[napari](https://napari.org/) is being developed as a multi-dimensional image viewer that can be expanded via a variety of plugins to perform basic and complex image analysis tasks. [Read more...](content/napari)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "Cellpose"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:75
+msgid "[Cellpose](https://www.cellpose.org/) is a {term}`segmentation` algorithm, it provides a graphical user interface that allows users to use trained models or train their own using their images and annotations. [Read more...](content/cellpose)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "ilastik"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:84
+msgid "[ilastik](https://www.ilastik.org/) is a tool for interactive image classification, {term}`segmentation` and analysis. It leverages machine-learning algorithms to perform pixel and object-level classification. Using it requires no experience in {term}`image processing`. [Read more...](content/ilastik)"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:0
+msgid "Piximi"
+msgstr ""
+
+#: ../../03_Image_analysis/Software.md:93
+msgid "[Piximi](https://www.piximi.app/) is an application for annotation and classification that runs entirely from your browser and requires no installation and minimal setup.  [Read more...](content/piximi)"
+msgstr ""

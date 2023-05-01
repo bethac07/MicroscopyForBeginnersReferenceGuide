@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../04_Data_presentation/Resources.md:1
+msgid "Resources for learning more"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:8
+msgid "**Resource Name**"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:9
+msgid "**Link**"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:10
+msgid "**Brief description**"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:11
+msgid "📄 Creating clear and informative image-based figures for scientific publications {cite}`Jambor2021-qe`"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:12
+msgid "[link](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001161 )"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:13
+msgid "Review article on how to create accessible, fair scientific figures, including guidelines for microscopy images"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:14
+msgid "📄 Community-developed checklists for publishing images and image analysis {cite}`Schmied2023-ad`"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:15
+msgid "[link](https://arxiv.org/abs/2302.07005)"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:16
+msgid "A paper recommending checklists and best practices for publishing image data"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:17
+msgid "📖 Modern Statistics for Modern Biology {cite}`Holmes2019-no`"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:18
+msgid "[link](https://www.huber.embl.de/msmb/)"
+msgstr ""
+
+#: ../../04_Data_presentation/Resources.md:19
+msgid "Online statistics for biologists textbook with code examples (in R)"
+msgstr ""
