@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"POT-Creation-Date: 2023-05-01 16:08-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../welcome.md:3
 msgid "Welcome to the world of bioimaging and bioimage analysis! 🎉"
-msgstr "Show a different text in translated version"
+msgstr ""
 
 #: ../../welcome.md:11
 msgid "BBBC image montage"

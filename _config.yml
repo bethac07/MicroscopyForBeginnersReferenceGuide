@@ -47,4 +47,4 @@ sphinx:
   config:
     bibtex_reference_style: super
     locale_dirs: ["locale/"] 
-    gettext_compact: false 
+    gettext_compact: true 

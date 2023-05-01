@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-01 13:30-0400\n"
+"POT-Creation-Date: 2023-05-01 16:08-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -318,5 +318,349 @@ msgid ""
 "📄 [Hypothesis-driven quantitative fluorescence microscopy - the "
 "importance of reverse-thinking in experimental "
 "design](https://pubmed.ncbi.nlm.nih.gov/33154172/) {cite}`Wait2020-gq`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:1
+msgid "Experimental design decisions"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:3
+msgid ""
+"A number of critical decisions must be made when designing a quantitative"
+" bioimaging experiment. Many of these decisions will be deeply dependent "
+"on what is possible given the biology you wish to study, for example:"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:4
+msgid ""
+"You will always prefer live imaging to fixed imaging if it is important "
+"to assess the dynamics of a given process"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:5
+msgid ""
+"You may need to perform special processes such as tissue clearing if it "
+"is important to image deep into a relatively opaque specimen"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:6
+msgid ""
+"You cannot rely on genetic tagging with fluorescent proteins if your "
+"model system is not genetically tractable to such manipulations"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:7
+msgid ""
+"You have to image at a particularly high resolution to confidently assess"
+" interactions between two molecules imaged in the same system"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:9
+msgid ""
+"It is therefore _**extremely**_ important to think through all of the "
+"aspects of your biological question before ever picking up a pipette or a"
+" slide. Many sample preparation decisions are deeply entwined with the "
+"availability and suitability of particular microscopes; see [that "
+"section](content/microscope_selection) for more information."
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:11
+msgid "Mounting"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:13
+msgid ""
+"Many imaging applications involve mounting on glass coverslips, either "
+"directly or using a coverslip mounted into a dish. While there are a wide"
+" range of coverslip sizes and shapes, the most important specification to"
+" take into account is the coverslip thickness (0.17 mm) or grade (#1.5 "
+"grade) and tolerance (how precise the thickness measurement is. For "
+"example, the thickness of a #1.5 coverslip can vary between 0.17-0.19mm, "
+"whereas a #1.5H has a standard deviation of 0.005 mm). These factors are "
+"important because most microscope manufacturers assume a specific "
+"coverslip thickness in the design of objective lenses to minimize common "
+"occurring aberrations. These aberrations tend to affect the brightness "
+"and axial resolution, reducing signal to noise ratio, sharpness and "
+"resolution . The tolerance of the coverslip (to minimize the variability "
+"in thickness) is essential for super-resolution techniques or intensity "
+"measurements in images collected with high numerical aperture objectives."
+" Other applications do not require the mounting of samples onto glass or "
+"plastic, but instead have the sample and the objective lens immersed in "
+"the same medium."
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:15
+msgid ""
+"The {term}`refractive index` the sample is placed in, as well as the "
+"refractive index of the glass and the medium between the objective and "
+"the sample are all critical to determining the overall resolution that "
+"can be achieved. The {term}`mounting media` can have other important "
+"optical and/or experimental properties; it is important to use the "
+"correct mounting media for experiment planned."
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:24
+msgid "effects of mounting media"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:24
+msgid ""
+"**Effects of mounting media on staining with various fluorophores**. "
+"Adapted from Jonkman J., Brown C.M., Wright G.D _et al_. Tutorial: "
+"guidance for quantitative confocal microscopy. _Nat Prot_ **15**, (2020) "
+"{cite}`Jonkman2020-bo`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:27
+msgid "Fluorophore selection"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:29
+msgid ""
+"Fluorophores are molecules that are able to emit light upon absorption of"
+" a photon, typically of shorter wavelength. The fluorophores relevant to "
+"biomedical research can be small molecules organic dyes (FITC, Alexa "
+"Fluor 488) that bind specific cell structure (e.g., DAPI, BODIPY, "
+"mitotrackers), fluorescent analogues of small molecules (e.g., "
+"phalloidin, fluorescent amino acids) or fluorescent proteins. Some of the"
+" important properties to consider when choosing fluorophores are listed "
+"below:"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:31
+msgid "Excitation/emission spectra of each fluorophore"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:32
+msgid "Brightness (dyes tend to be brighter than proteins)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:33
+msgid "Photostability"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:34
+msgid "Propensity to oligomerize (in the case of fluorescent proteins)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:35
+msgid "Phototoxicity (when imaging in live samples)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Experimental_design.md:37
+msgid ""
+"Understanding what fluorophores are available, their properties and the "
+"specifications of the hardware to image the sample (light source, "
+"excitation/emission filter cube, detector) are key in selecting the "
+"appropriate fluorophore(s) to address a scientific question. See the "
+"section on [reproducibility](content/reproducibility) for more "
+"information."
+msgstr ""
+
+#: ../../01_Sample_preparation/Introduction.md:1
+msgid "Introduction"
+msgstr ""
+
+#: ../../01_Sample_preparation/Introduction.md:3
+msgid ""
+"A good image starts at the bench. The best performing instrument will not"
+" produce rigorous, reproducible or high quality data unless sample "
+"preparation has been optimized. To design a rigorous and reproducible "
+"microscopy experiment, it is critical to identify the goal of the "
+"experiment and understand the factors that impact the image. This "
+"information informs researchers about how to prepare the sample, what "
+"minimal controls and corrections are needed, how to choose the "
+"appropriate instrumentation, optimize acquisition, analyze and present "
+"microscopy data."
+msgstr ""
+
+#: ../../01_Sample_preparation/Introduction.md:5
+msgid ""
+"Here we will discuss some of the key choices you will make during sample "
+"preparation, including selecting your sample type and fluorophore (if "
+"you're performing fluorescence microscopy). We also discuss some minimal "
+"controls necessary for interpreting your results."
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:1
+msgid "Reproducibility"
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:5
+msgid ""
+"A number of factors are critical in designing a reproducible microscopy "
+"experiment. A few critical factors are laid out here; see other works "
+"such as {cite}`Jost2019-nx`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:7
+msgid "Antibody validation"
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:9
+msgid ""
+"While in a perfect world, antibodies would always be specific to a "
+"particular target, unfortunately, this cannot always be relied upon when "
+"performing {term}`immunolabeling`. {cite}`Uhlen2016-wy` When possible, "
+"one should perform knockout and/or knockdown controls to confirm antibody"
+" specificity; where not, look for availability of another antibody to a "
+"different part of the target molecule (sometimes called the _epitope_) "
+"and confirm you get consistent localization."
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:11
+msgid ""
+"Optimizing your {term}`blocking` and {term}`permeabilization` conditions "
+"for the particular antibody and protocol can reduce non-specific "
+"background. No-primary-antibody controls should always be performed as "
+"well, as they are essential for validating signal specificity."
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:13
+msgid "Fluorescent protein localization validation"
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:15
+#, python-format
+msgid ""
+"Expression of fluorescently-tagged proteins can make localization of a "
+"molecule or structure possible, especially when no good antibody exist "
+"for immunolabeling and/or it will be helpful to observe the molecule's "
+"behavior in live cells. While a study comparing overlap between the same "
+"molecular targets with fluorescent proteins vs antibodies found 80% "
+"overlap, they also found that some considerations (such as whether the C-"
+" or N- terminus of a protein is tagged) may cause changes in "
+"localization. {cite}`Stadler2013`. A recent paper {cite}`Sittewelle2023` "
+"surveys considerations for genetic tagging of molecules for live "
+"microscopy."
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:18
+msgid "Bleedthrough"
+msgstr ""
+
+#: ../../01_Sample_preparation/Reproducibility.md:20
+msgid ""
+"When performing multicolor fluorescence microscopy, it is critical to "
+"choose fluorophores with sufficiently distinct excitation and emission "
+"spectra; online tools such as FPbase {cite}`Lambert2019-xl` can help with"
+" such selections, especially if you know the various optical components "
+"of the microscope on which you will be imaging your samples (these "
+"configurations can be saved and shared on FPbase; ask the maintainer of "
+"the microscope you plan to use if such a configuration file is already "
+"online). Even if you believe your fluorophores are sufficiently "
+"separated, it is critical to check single-color fluorescent controls "
+"using the same imaging conditions (and preferably on the same day) as "
+"your multicolor controls to be certain no bleedthrough is occurring; it "
+"is _mandatory_ to do this if you are planning to measure "
+"[colocalization](content/colocalization)."
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:1
+msgid "Resources for learning more"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:8
+msgid "**Resource Name**"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:9
+msgid "**Link**"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:10
+msgid "**Brief description**"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:11
+msgid "🌐 Microforum"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:12
+msgid "[link](https://forum.microlist.org/)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:13
+msgid ""
+"An online forum for discussing issues with and getting advice on sample "
+"preparation and microscopy"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:14
+msgid "🌐 FPbase {cite}`Lambert2019-xl`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:15
+msgid "[link](https://www.fpbase.org/)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:16
+msgid ""
+"Database for identifying fluorophores by brightness, spectra and "
+"assessing compatibility with other fluorophores and with microscope "
+"filters"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:17
+msgid "🌐 Bio-protocol"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:18
+msgid "[link](https://bio-protocol.org/en/about )"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:19
+msgid ""
+"Website to search for protocols across biological disciplines, including "
+"protocols associated with work published elsewhere. All protocols are "
+"available under an open access license (CC BY or CC BY-NC)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:20
+msgid "🌐 protocolos.io"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:21
+msgid "[link](https://www.protocols.io/)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:22
+msgid "A secure platform for developing and sharing reproducible methods"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:23
+msgid ""
+"📄 Designing a rigorous microscopy experiment: Validating methods and "
+"avoiding bias {cite}`Jost2019-nx`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:24
+msgid ""
+"[link](https://rupress.org/jcb/article/218/5/1452/120908/Designing-a"
+"-rigorous-microscopy-experiment)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:25
+msgid ""
+"Review of aspects of designing a rigorous light microscopy experiment, "
+"including validation of samples and imaging, identification and "
+"correction of errors, and strategies to avoid biases"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:26
+msgid ""
+"📄 Tutorial: guidance for quantitative confocal microscopy "
+"{cite}`Jonkman2020-bo`"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:27
+msgid "[link](https://doi.org/10.1038/s41596-020-0313-9)"
+msgstr ""
+
+#: ../../01_Sample_preparation/Resources.md:28
+msgid ""
+"Step-by-step guidance on practical considerations for sample preparation,"
+" acquisition, and image analysis; primarily though not exclusively aimed "
+"at users of confocal microscopy"
 msgstr ""
 
