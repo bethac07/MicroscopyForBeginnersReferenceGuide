@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-01 16:08-0400\n"
+"POT-Creation-Date: 2023-05-01 16:14-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,11 +176,6 @@ msgstr ""
 
 #: ../../03_Image_analysis/Colocalization.md:64
 msgid "📄 [Image co-localization - co-occurrence versus correlation](https://journals.biologists.com/jcs/article/131/3/jcs211847/77151/Image-co-localization-co-occurrence-versus) {cite}`Aaron2018-qi`"
-msgstr ""
-
-#: ../../03_Image_analysis/Common_types_of_analysis.md:1
-#: ../../03_Image_analysis/Software.md:1
-msgid ""
 msgstr ""
 
 #: ../../03_Image_analysis/Common_types_of_analysis.md:1
