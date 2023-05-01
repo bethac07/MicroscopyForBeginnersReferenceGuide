@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../welcome.md:3
 msgid "Welcome to the world of bioimaging and bioimage analysis! 🎉"
-msgstr ""
+msgstr "Show a different text in translated version"
 
 #: ../../welcome.md:11
 msgid "BBBC image montage"
