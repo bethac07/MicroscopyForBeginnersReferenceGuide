@@ -40,4 +40,20 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_build/html
-        cname: www.bioimagingguide.org
+        cname: test.boaq.org
+  
+    # Build the book in Spanish
+    - name: Build the book
+      run: |
+        jupyter book config sphinx .              
+        sphinx-build -b html -D language=es . _build/html_es
+
+    # Push the book's Spanish HTML to github-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.6.1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages_es
+        publish_dir: ./_build/html_es
+        cname: test2.boaq.org
+        
