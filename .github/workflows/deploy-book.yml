@@ -32,7 +32,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build .
+        jupyter-book build . --all
 
     # Push the book's HTML to github-pages
     - name: GitHub Pages action
@@ -46,7 +46,7 @@ jobs:
     - name: Build the book
       run: |
         jupyter book config sphinx .              
-        sphinx-build -b html -D language=es . _build/html_es
+        sphinx-build -b html -E -a -D language=es . _build/html_es
 
     # Push the book's Spanish HTML to github-pages
     - name: GitHub Pages action
