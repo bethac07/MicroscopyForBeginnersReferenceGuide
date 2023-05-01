@@ -1,0 +1,630 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Considerations for different sample types &#8212; Microscopy for Beginners reference guide</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/myfile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-LDZ3MLCB50"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-LDZ3MLCB50');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01_Sample_preparation/Considerations';</script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Reproducibility" href="Reproducibility.html" />
+    <link rel="prev" title="Experimental design decisions" href="Experimental_design.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../QuantitativeBioimaging.html">Quantitative Bioimaging</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Sample Preparation</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Experimental_design.html">Experimental design decisions</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Considerations for different sample types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Reproducibility.html">Reproducibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Resources.html">Resources for learning more</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Sample Acquisition</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../02_Sample_acquisition/Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_Sample_acquisition/Picking.html">Choosing the right microscopy modality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_Sample_acquisition/Practical_considerations.html">Practical considerations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_Sample_acquisition/Resources.html">Resources for learning more</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Image Analysis and Data Handling</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../03_Image_analysis/Introduction.html">Introduction</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_Image_analysis/Common_types_of_analysis.html">Common types of analysis</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/Shape.html">Size and Shape measurements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/Intensity.html">Intensity measurements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/Colocalization.html">Colocalization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/Tracking.html">Object tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/Classification.html">Object classification</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03_Image_analysis/Software.html">Open source software</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/GeneralUseSoftware.html">General Use Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_Image_analysis/SpecificUseSoftware.html">Specific Use Software</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../03_Image_analysis/Data_management.html">Data management and sharing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_Image_analysis/Resources.html">Resources for learning more</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Interpretation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../04_Data_presentation/Introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_Data_presentation/Presentation_images.html">Presentation of microscopy images</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_Data_presentation/Statistics.html">Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_Data_presentation/Resources.html">Resources for learning more</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Additional Resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../community_resources.html">Community resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributors.html">Contributing to this guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bibliography.html">Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../genindex.html">Index</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/broadinstitute/MicroscopyForBeginnersReferenceGuide" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/broadinstitute/MicroscopyForBeginnersReferenceGuide/edit/main/01_Sample_preparation/Considerations.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/broadinstitute/MicroscopyForBeginnersReferenceGuide/issues/new?title=Issue%20on%20page%20%2F01_Sample_preparation/Considerations.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/01_Sample_preparation/Considerations.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Considerations for different sample types</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="considerations-for-different-sample-types">
+<h1>Considerations for different sample types<a class="headerlink" href="#considerations-for-different-sample-types" title="Permalink to this heading">#</a></h1>
+<p id="content-sample-types">There are many different options for types of samples to image, and advances in sample preparation techniques and imaging modalities are continually enabling the imaging of more diverse and complex biological specimens. As with many other aspects of experimental design, sample type selection comes with tradeoffs. Samples that are amenable to simple preparation and imaging tend to be small, thin, and relatively clear, like a monolayer of cultured cells. Such samples have obvious advantages and can be imaged in a high-throughput manner, but they’re not suitable for every biological question. Sometimes a thicker specimen, like an organoid, or whole or sectioned tissue is needed, especially when the biological question involves interactions between different types of cells. Carefully consider what biological context is appropriate for your question and what measurements you’d ultimately like to be able to make. Below, we summarize some common sample types</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+🤔 What are my options?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Here we present some major categories for sample types. Note that there are not hard boundaries between these different categories (e.g., both cells and organoids can be cultured in 3D, many of these specimens can be imaged live or after <a class="reference internal" href="../Glossary.html#term-Fixation"><span class="xref std std-term">fixation</span></a>), but some general advantages and disadvantages are summarized below.</p>
+<p class="sd-card-text"><strong>Cultured cells</strong></p>
+<p class="sd-card-text">Many different types of cells can be cultured, or grown in a dish. Cells can be grown in a monoculture, with only one cell type, or in a co-culture with multiple cell types.</p>
+<p class="sd-card-text"><em>Advantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Cultured cells tend to be relatively simple to image and for many questions can be imaged with widefield microscopy (see <a class="reference internal" href="../02_Sample_acquisition/Picking.html#content-microscope-selection"><span class="std std-ref">Acquisition</span></a>), which is faster and more accessible than confocal or superresolution methods. Additionally, high-throughput microscopes integrated with robotics can enable automation of experiments and imaging with cultured cells.</p></li>
+<li><p class="sd-card-text">Cells can be frozen, thawed, and grown much faster than work with more complex specimens like organoids or whole organisms, compressing the timeline to perform an experiment</p></li>
+</ul>
+<p class="sd-card-text"><em>Disadvantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Most applications in microscopy require imaging through a glass coverslip of a specific thickness and tolerance. However, many cell types do not survive or cannot grow on glass and require additional coatings and manipulations of the coverslip to ensure the health of the sample. As an alternative some companies manufacture imaging chambers (multi well plates, 35 mm dishes…) with proprietary polymers that have similar properties to glass (optical polymers), thus enabling high resolution imaging. It is imperative to understand whether the immersion oil used during imaging affects the integrity of these polymers, as the solvents in some immersion media can crack or dissolve the polymer layer.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Organoids</strong></p>
+<p class="sd-card-text">Organoids are cultured cells that are grown in 3D to mimic the structure and sometimes functions of organs. Organoids are typically grown from stem cells that self-organize into a more complex structure, including differentiating into different cell types. Organoids are well suited to questions of development, modeling disease, and for understanding tissue and organ regeneration.</p>
+<p class="sd-card-text"><em>Advantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Because organoids contain multiple cell types and reflect some structure and cell relationships seen in organs <em>in vivo</em>, they are well-suited to more complex questions about disease and cell-cell interactions. They can also be used to model processes and structures that are necessarily 3D and not recapitulated well in a flat layer of cells, like many developmental processes.</p></li>
+<li><p class="sd-card-text">Organoids can be made from induced pluripotent stem cells (iPSCs) from human or animal samples, and thus can model disease processes specific to a given human donor.</p></li>
+</ul>
+<p class="sd-card-text"><em>Disadvantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Organoids can take more complex resources and protocols to grow and can take more time than just growing cultured cells on glass or plastic.</p></li>
+<li><p class="sd-card-text">Because organoids are 3D structures, they often are not amenable to widefield imaging and may require spinning disk or point-scanning confocal microscopy.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Tissue</strong></p>
+<p class="sd-card-text">Tissues are formed when cells act together to perform a specific function. Tissues can be cultured by taking a piece of an animal or plant and allowing it to continue to survive and grow in a dish. Tissues can also be harvested from plants or animals and stained for the presence of different molecules. Tissues are typically cut into pieces (aka <a class="reference internal" href="../Glossary.html#term-Tissue-sectioning"><span class="xref std std-term">tissue sectioning</span></a>), and can be fixed, fresh, or frozen, or even alive in <a class="reference internal" href="../Glossary.html#term-Ex-Vivo-imaging"><span class="xref std std-term">ex-vivo imaging</span></a>.</p>
+<p class="sd-card-text"><em>Advantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Tissues have more intact cell-cell interactions that are generally more representative of what happens <em>in vivo</em> than in cell culture.</p></li>
+<li><p class="sd-card-text">Repositories of donated human tissues enable biomedical research to study a diverse sample of patients with a particular disease.</p></li>
+</ul>
+<p class="sd-card-text"><em>Disadvantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Primary cells and tissues tend to be sensitive to environment than immortalized cell lines and can be more difficult to grow and may require specialized protocols depending on cell type.</p></li>
+<li><p class="sd-card-text">Tissues harvested from a whole animal or plant require time for the development and growth of that specimen before harvesting.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Whole organism / embryo</strong></p>
+<p class="sd-card-text">Some whole organisms are thin and transparent enough to image. Some animals also have near-transparent embryonic stages, like the zebrafish. Additionally, <a class="reference internal" href="../Glossary.html#term-Intravital-imaging"><span class="xref std std-term">intravital imaging</span></a> is the imaging of cellular structures or biological processes inside a live animal in real time, without extracting the organs or fixing the sample. In general, it requires specific instrumentation or modalities with improved light penetration, such as multiphoton microscopy and is limited to the ability to access the specific organ, often through optical windows.</p>
+<p class="sd-card-text"><em>Advantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Imaging whole organisms or embyros provides the most possible intact biological context when studying a particular process or structure.</p></li>
+</ul>
+<p class="sd-card-text"><em>Disadvantages</em></p>
+<ul class="simple">
+<li><p class="sd-card-text">Imaging of thicker specimens may require processing (<a class="reference internal" href="../Glossary.html#term-Tissue-clearing"><span class="xref std std-term">tissue clearing</span></a>) of the sample to make its <a class="reference internal" href="../Glossary.html#term-Refractive-index"><span class="xref std std-term">refractive index</span></a> match that of the imaging media and reduce absorption and scattering of light.</p></li>
+<li><p class="sd-card-text">Intravital imaging often requires specific surgical techniques and is overseen by bioethical committees and needs to be approved by IACUC and/or other institutional committees.</p></li>
+</ul>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span style="color: red">⚠️</span> Where can things go wrong?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Photobleaching and phototoxicity</strong> - Photobleaching can be defined as the irreversible destruction of a fluorophore in its excited state, meaning, that fluorophore will not be able to emit more light and the fluorescence signal will therefore degrade over time, affecting signal to noise ratio and intensity measurements. In order to minimize photobleaching during acquisition, there are a number of photobleaching reagent agents that can be added to the media. These agents minimize photobleaching of fluorophores to a different extent, and therefore it is important to contact the manufacturer to ensure they are optimal for the specific fluorophore. For example addition of oxygen scavengers to the imaging media such as glucose oxidase or pyranose 2-oxidase can significantly reduce photobleaching. It is important to understand that the use of <a class="reference internal" href="../Glossary.html#term-Oxygen-scavengers"><span class="xref std std-term">oxygen scavengers</span></a> may affect live cell imaging, as these scavengers can affect the ATP and oxygen levels within the sample, compromising its health and therefore biological function.</p></li>
+<li><p class="sd-card-text"><strong>Cells are dying</strong> - Fluorescent light induces DNA damage and oxidation of cellular components (phototoxicity). In addition, fluorophore photobleaching can further induce phototoxicity by creating reactive oxygen species (ROS). The addition of antioxidants and removal of certain molecules (e.g., riboflavin) from the imaging media can reduce the ROS produced during imaging, improving the health of the sample.<span id="id1"><sup><a class="reference internal" href="../bibliography.html#id103" title="John H. Stockley, Kimberley Evans, Moritz Matthey, Katrin Volbracht, Sylvia Agathou, Jana Mukanowa, Juan Burrone, and Ragnhildur T. Káradóttir. Surpassing light-induced cell damage in vitro with novel cell culture media. Scientific Reports, 7(1):849, Apr 2017. URL: https://doi.org/10.1038/s41598-017-00829-x, doi:10.1038/s41598-017-00829-x.">6</a></sup></span></p></li>
+<li><p class="sd-card-text"><strong>My fixed cells don’t looked as expected</strong> - Fixation can change the localization and fluorescence of different proteins. Where possible, always compare the distribution of a protein or molecule of interest with and without fixation. Also consider whether a different <a class="reference internal" href="../Glossary.html#term-Fixation"><span class="xref std std-term">fixation</span></a> method may be more appropriate for your specimen.</p></li>
+</ul>
+<ul class="simple" id="content-sample-opacity">
+<li><p class="sd-card-text"><strong>My sample is too opaque</strong> - Thicker specimens, like thick tissue sections, pigmented cells, or whole organisms can be challenging to image due to light absorption and scattering induced by the inhomogeneities in <a class="reference internal" href="../Glossary.html#term-Refractive-index"><span class="xref std std-term">refractive index</span></a> within the tissue itself, resulting in poor light penetration. To facilitate imaging of tissues, researchers often cut thick tissues into slices of different thicknesses. This process is called tissue sectioning. In most cases the samples are fixed and embedded in paraffin or frozen in tissue freezing medium and later cut into thin slices by a machine like a cryostat, microtome, or vibratome and sections collected into a tube or onto a slide. Alternatively, most components in any complex biological system such as an organ are not contained within this two-dimensional volume, and therefore, this approach compromises the understanding of the spatial relationships among cellular components. Tissue clearing focused on reducing the inhomogeneities in the tissue by equilibrating the <a class="reference internal" href="../Glossary.html#term-Refractive-index"><span class="xref std std-term">refractive index</span></a> throughout the sample. This allows light to pass through the tissue and therefore enables high resolution, volumetric imaging of whole organs and tissues using conventional microscopy techniques such as confocal microscopy without the need to physically section the sample.</p></li>
+</ul>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+📚🤷‍♀️ Where can I learn more?<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<ul class="simple">
+<li><p class="sd-card-text">📄 <a class="reference external" href="https://www.nature.com/articles/s43586-022-00174-y#:~:text=An%20organoid%20is%20a%20self,%2C9%2C10%2C11.">Organoids Primer</a> <span id="id2"><sup><a class="reference internal" href="../bibliography.html#id80" title="Zixuan Zhao, Xinyi Chen, Anna M Dowbaj, Aleksandra Sljukic, Kaitlin Bratlie, Luda Lin, Eliza Li Shan Fong, Gowri Manohari Balachander, Zhaowei Chen, Alice Soragni, Meritxell Huch, Yi Arial Zeng, Qun Wang, and Hanry Yu. Organoids. Nature Reviews Methods Primers, 2(1):1–21, December 2022.">7</a></sup></span></p></li>
+<li><p class="sd-card-text">📄 <a class="reference external" href="https://doi.org/10.1038/s41596-020-0313-9">Tutorial: guidance for quantitative confocal microscopy</a> <span id="id3"><sup><a class="reference internal" href="../bibliography.html#id81" title="James Jonkman, Claire M Brown, Graham D Wright, Kurt I Anderson, and Alison J North. Tutorial: guidance for quantitative confocal microscopy. Nat. Protoc., 15(5):1585–1611, May 2020.">5</a></sup></span></p></li>
+<li><p class="sd-card-text">📄 <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/33154172/">Hypothesis-driven quantitative fluorescence microscopy - the importance of reverse-thinking in experimental design</a> <span id="id4"><sup><a class="reference internal" href="../bibliography.html#id82" title="Eric C Wait, Michael A Reiche, and Teng-Leong Chew. Hypothesis-driven quantitative fluorescence microscopy - the importance of reverse-thinking in experimental design. J. Cell Sci., November 2020.">8</a></sup></span></p></li>
+</ul>
+</div>
+</details><!-- 
+Commented out text not shown on the page
+Images of the specimen types would be cool!
+
+ --></section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./01_Sample_preparation"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Experimental_design.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Experimental design decisions</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Reproducibility.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Reproducibility</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
